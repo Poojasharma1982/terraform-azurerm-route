@@ -15,7 +15,7 @@ variable "route-table-name" {
   # default = "01000000-0000-4000-8000-000030080200"
 }
   variable "next-hop" {
-  type = list
+  type = string
   # default = "01000000-0000-4000-8000-000030080200"
 }
  
